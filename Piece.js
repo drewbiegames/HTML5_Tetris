@@ -1,5 +1,5 @@
 // Object : Piece
-function Piece(tetromino, color){
+function Piece(tetromino, color) {
 	this.tetromino = tetromino;
 	this.color = color;
 

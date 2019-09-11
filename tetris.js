@@ -7,14 +7,14 @@ const ROW = 20;
 const COLUMN = 10;
 const VACANT = "WHITE";
 const PIECES = [
-		[Z, "red"],
-		[S, "green"],
-		[T, "cyan"],
-		[O, "indigo"], 
-		[I, "blue"], 
-		[L, "purple"], 
-		[J, "orange"]
-	];
+[Z, "red"],
+[S, "green"],
+[T, "cyan"],
+[O, "indigo"], 
+[I, "blue"], 
+[L, "purple"], 
+[J, "orange"]
+];
 
 function drawSquare(posX, posY, fill){
 	context.fillStyle = fill;
